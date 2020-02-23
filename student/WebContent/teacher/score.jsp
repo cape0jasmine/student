@@ -129,7 +129,7 @@
 					<%
 					CourseD cd = new  CourseD();
 						ArrayList<Course> list2 = cd.getCourses();
-						if(list != null && list2.size() != 0){
+						if(list2 != null && list2.size() != 0){
 							for(Course c:list2){
 								%>
 								<option value="<%=c.getCname()%>"><%=c.getCname()%></option>
